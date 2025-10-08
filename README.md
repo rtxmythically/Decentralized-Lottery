@@ -1,52 +1,48 @@
-# 🎟️ Decentralized Lottery DApp — Frontend (React + Ethers.js)
+# Decentralized Lottery DApp (Frontend)
 
-This repository contains the **frontend interface** for the **Decentralized Lottery System**,  
-a blockchain-based, transparent, and fair lottery powered by **Ethereum smart contracts** on the **Sepolia Testnet**.
+This repository contains the **frontend interface** for the Decentralized Lottery system — a fully on-chain and transparent lottery running on the **Ethereum Sepolia Testnet**.  
+It allows users to connect their wallet, participate in the lottery, and view live on-chain data such as participants, prize pool, and winners.
 
-> 🧱 Smart Contract Repo:  
-> [Decentralized Lottery Smart Contract](https://github.com/rtxmythically/Decentralized-Lottery-SmartContract-Hardhatt)
+> **Smart Contract Repository:**  
+> [Decentralized-Lottery-SmartContract-Hardhatt](https://github.com/rtxmythically/Decentralized-Lottery-SmartContract-Hardhatt)
 
-> 🌐 Live App:  
+> **Live Application:**  
 > [https://decentralized-lottery.web.app/](https://decentralized-lottery.web.app/)
 
 ---
 
-## 🚀 Overview
+## Overview
 
-The **Decentralized Lottery DApp** allows users to participate in an on-chain lottery system directly through their browser.  
-Users can connect their wallet, enter the lottery by paying an entry fee, and view the live pool, participants, and the latest winner — all fetched in real-time from the blockchain.
-
-The frontend interacts directly with the deployed smart contract using **Ethers.js**, ensuring full transparency and decentralization without relying on a centralized backend.
-
----
-
-## ✨ Features
-
-- 🔗 Connect your wallet (MetaMask)
-- 💰 Enter the lottery by paying the entry fee (in ETH)
-- 👥 View current participants in real time
-- 🧾 Display contract balance and entry cost
-- 🏆 See the latest lottery winner
-- ⚡ Live updates when new entries or winners appear
-- 🔒 Built for transparency and fairness on Ethereum
+The frontend is built with **React** and **Ethers.js**, directly interacting with the deployed smart contract on the Sepolia test network.  
+It does not rely on any centralized backend — all information is retrieved directly from the blockchain.  
+The project demonstrates how decentralized applications can provide transparency and fairness in lottery systems.
 
 ---
 
-## 🧰 Tech Stack
+## Features
 
-| Category | Technology |
-|-----------|-------------|
-| Frontend Framework | **React** |
-| Blockchain SDK | **Ethers.js** |
-| Network | **Sepolia Testnet (Ethereum)** |
-| Hosting / Deployment | **Firebase Hosting** |
-| Styling | *(Add here if you use TailwindCSS / CSS Modules / etc.)* |
+- Connect wallet via **MetaMask**
+- Enter the lottery by paying the entry fee
+- Display current participants in real time
+- Show the contract balance and entry cost
+- View the latest winner
+- Live updates triggered by blockchain events
+- Deployed and hosted on **Firebase**
 
 ---
 
-## ⚙️ Project Setup
+## Tech Stack
 
-### 1️⃣ Clone the repository
+- **Framework:** React  
+- **Blockchain SDK:** Ethers.js  
+- **Network:** Ethereum Sepolia Testnet  
+- **Deployment:** Firebase Hosting  
+
+---
+
+## Installation
+
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/rtxmythically/decentralized-lottery.git
