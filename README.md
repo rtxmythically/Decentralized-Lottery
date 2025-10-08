@@ -1,7 +1,7 @@
 # Decentralized Lottery DApp (Frontend)
 
 This repository contains the **frontend interface** for the Decentralized Lottery system — a fully on-chain and transparent lottery running on the **Ethereum Sepolia Testnet**.  
-It allows users to connect their wallet, participate in the lottery, and view live on-chain data such as participants, prize pool, and winners.
+It allows users to connect their wallet, participate in the lottery by paying **0.01 ETH**, and view live on-chain data such as participants, prize pool, and winners.
 
 > **Smart Contract Repository:**  
 > [Decentralized-Lottery-SmartContract-Hardhatt](https://github.com/rtxmythically/Decentralized-Lottery-SmartContract-Hardhatt)
@@ -13,21 +13,28 @@ It allows users to connect their wallet, participate in the lottery, and view li
 
 ## Overview
 
-The frontend is built with **React** and **Ethers.js**, directly interacting with the deployed smart contract on the Sepolia test network.  
-It does not rely on any centralized backend — all information is retrieved directly from the blockchain.  
-The project demonstrates how decentralized applications can provide transparency and fairness in lottery systems.
+The frontend is built with **React** and **Ethers.js**, directly interacting with the deployed smart contract on the **Sepolia test network**.  
+All data — including participants, entry fee, and winners — is fetched directly from the blockchain, ensuring full transparency and decentralization.
 
 ---
 
 ## Features
 
 - Connect wallet via **MetaMask**
-- Enter the lottery by paying the entry fee
+- Enter the lottery by paying **0.01 ETH**
 - Display current participants in real time
-- Show the contract balance and entry cost
-- View the latest winner
+- Show the contract balance and entry fee
+- View the most recent winner
 - Live updates triggered by blockchain events
 - Deployed and hosted on **Firebase**
+
+---
+
+## Smart Contract Details
+
+- **Network:** Ethereum Sepolia Testnet  
+- **Contract Address:** `0x9FDBBBeda4495fc63A2E90886D6EDeFf52343233`  
+- **Entry Fee:** `0.01 ETH`
 
 ---
 
